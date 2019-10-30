@@ -1,1 +1,2 @@
 # GifTastic
+In the assignment, the value of API is used. We gather data from giphy.com to show short clip videos while collecting ratings, images, and title. Also use the function of still and play with click function.
