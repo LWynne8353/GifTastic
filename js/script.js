@@ -1,14 +1,13 @@
-//$(document).ready(function){
+$(document).ready(function(){
+  var muppets = ["KermittheFrog","MissPiggy", "RizzotheRat", "SwedishChef", "FozzieBear","GonzotheGreat", "StatlerandWaldorf", "Dr.BunsenHoneyDew","Beaker","Animal"]
+}
 
-//});
+var query = ("https://api.giphy.com/v1/gifs/search?q=" + muppets + "api_key=8zRpsfahc5Fqb30C0sk05hJ2YhNm5AZU&");
 
-
-//
-//var query https://api.giphy.com/v1/gifs/search?api_key=8zRpsfahc5Fqb30C0sk05hJ2YhNm5AZU&q=muppets&limit=10&offset=0&rating=PG&lang=en
-
-//$.ajax({
- //   url: queryURL,
-//    method: "GET"
-//  }).then(function(response) {
-//    console.log(response);
-//  });
+$.ajax({
+    url: queryURL,
+   method: "GET"
+  }).then(function(response) {
+    console.log(queryURL);
+    console.log(response);
+  });

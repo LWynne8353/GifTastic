@@ -1,30 +1,67 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <title>Muppet-tastic</title>
+
 </head>
 
 <body>
-    <h1>Muppet-tastic</h1>
- <div id="button-view"></div>
-    <!--this will be floated to the right of the screen ---> 
- <form id="muppets-form">
-     <label for="muppet-input"></label>
-     <input type="text" id="muppet-input">
+  <div class="jumbotron jumbotron-fluid">
 
-     <input id= "add-muppet" type = "submit" value= "Rainbow Connection">
- </form>
+    <div class="container">
+      <h1 class="display-4">Muppet-tastic</h1>
+      <p class="lead">Search for your favorite Muppets Giphs</p>
+      <div id="button-view"></div>
+      <!--search box to look up muppets-->
+      <form id="muppets-form">
+        <label for="muppet-input"></label>
+        <input type="text" id="muppet-input">
+        <input id="add-muppet" type="submit" value="Rainbow Connection">
+      </form>
+    </div>
+  </div>
+<!--Buttons to search top ten muppets-->
+  <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+    <div class="btn-group mr-2" role="group" aria-label="First group">
+      <button type="button" class="btn btn-secondary">Kermit the frog</button>
+      <button type="button" class="btn btn-secondary">Miss Piggy</button>
+      <button type="button" class="btn btn-secondary">Rizzo the Rat</button>
+      <button type="button" class="btn btn-secondary">Swedish Chef</button>
+      <button type="button" class="btn btn-secondary">Fozzie Bear</button>
+      <button type="button" class="btn btn-secondary">Gonzo The Great</button>
+      <button type="button" class="btn btn-secondary">Statler and Waldorf</button>
+      <button type="button" class="btn btn-secondary">Dr. Bunsen Honeydew</button>
+      <button type="button" class="btn btn-secondary">Beaker</button>
+      <button type="button" class="btn btn-secondary">Animal</button>
+    </div>
 
-<!---this is to add the view so the giphy populates on the page-->
- <!---<div id= "muppet-view"-->
- 
-    <!-- --->    
 
 
 
 
 
+
+
+    <!-- jQuery JS -->
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"></script>
+    <!-- Code to the JavaScript File -->
+    <script src="script.js"></script>
 
 </body>
+
 </html>
