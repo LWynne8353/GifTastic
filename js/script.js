@@ -26,6 +26,10 @@ $(document).ready(function () {
           $("#muppetsgiphys").prepend(imageDiv);
         }
       }
+      // $("#add-muppet").on("click", function(event) {
+      //   event.preventDefault();
+      //   var henson = $("#muppet-input").val().trim();
+        
     });
   })
 
